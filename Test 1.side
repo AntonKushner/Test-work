@@ -1,0 +1,104 @@
+{
+  "id": "a4f1c5d9-4f3f-4d7a-837e-60634c4b8ec5",
+  "version": "2.0",
+  "name": "Test 1",
+  "url": "https://generals.apexpoint.com",
+  "tests": [{
+    "id": "56b1935c-8f47-4d16-804b-08831e49727d",
+    "name": "Test 1",
+    "commands": [{
+      "id": "33e505d4-5c86-4c72-8e8a-e65571c5a5d7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9a9912e-149c-4a5a-84bc-13f023171968",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "770x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6182f27-2ffd-4c50-91f6-0f7ad471718e",
+      "comment": "",
+      "command": "click",
+      "target": "id=emailAuth",
+      "targets": [
+        ["id=emailAuth", "id"],
+        ["name=username", "name"],
+        ["css=#emailAuth", "css:finder"],
+        ["xpath=//input[@id='emailAuth']", "xpath:attributes"],
+        ["xpath=//div[@id='fieldsWrapper']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c04adeb8-249c-4d11-9f6f-503c632b7e38",
+      "comment": "",
+      "command": "type",
+      "target": "id=emailAuth",
+      "targets": [
+        ["id=emailAuth", "id"],
+        ["name=username", "name"],
+        ["css=#emailAuth", "css:finder"],
+        ["xpath=//input[@id='emailAuth']", "xpath:attributes"],
+        ["xpath=//div[@id='fieldsWrapper']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "199113ak@gmail.com"
+    }, {
+      "id": "1df351c4-d7c4-4eee-bb0a-36c8e83711e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=passAuth",
+      "targets": [
+        ["id=passAuth", "id"],
+        ["name=password", "name"],
+        ["css=#passAuth", "css:finder"],
+        ["xpath=//input[@id='passAuth']", "xpath:attributes"],
+        ["xpath=//div[@id='fieldsWrapper']/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a8c9929-3cf4-4da3-9ce7-8932fac5c45d",
+      "comment": "",
+      "command": "type",
+      "target": "id=passAuth",
+      "targets": [
+        ["id=passAuth", "id"],
+        ["name=password", "name"],
+        ["css=#passAuth", "css:finder"],
+        ["xpath=//input[@id='passAuth']", "xpath:attributes"],
+        ["xpath=//div[@id='fieldsWrapper']/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "11111111"
+    }, {
+      "id": "39ca20b5-453b-4914-b9d1-777828a9f3b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=buttonGlow",
+      "targets": [
+        ["id=buttonGlow", "id"],
+        ["css=#buttonGlow", "css:finder"],
+        ["xpath=//div[@id='buttonGlow']", "xpath:attributes"],
+        ["xpath=//div[@id='buttonText']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e96deef9-d1ae-427c-b9a9-0db5da65257c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://generals.apexpoint.com/"],
+  "plugins": []
+}
